@@ -3,11 +3,11 @@
 The script utilizes a free software machine learning library “scikit-learn” as a core
 complementing it with several algorithms.
 The script uses the concept of data-pipeline to consequentially perform the following procedures:
-to impute the missing data with nearest-neighbour-imputation
-to standardize the data
-to identify and trim outliers and small 'blobs' with LOF and mean-shift
-to cluster the data with k-mean and DBSCAN
-to improve the eventual clustering result via PCA
+1) to impute the missing data with nearest-neighbour-imputation
+2) to standardize the data
+3) to identify and trim outliers and small 'blobs' with LOF and mean-shift
+4) to cluster the data with k-mean and DBSCAN
+5) to improve the eventual clustering result via PCA
 Since the ground truth is not provided, the clustering is validated only by internal evaluation, namely
 by silhouette index, Calinski-Harabazs index and Dunn-index '''
 
