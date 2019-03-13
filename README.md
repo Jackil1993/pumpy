@@ -8,7 +8,7 @@ The concept of data-pipeline is used to consequentially perform the following pr
 5) to improve the eventual clustering result via PCA
 Since the ground truth is not provided, the clustering is validated only by internal evaluation, namely by silhouette index, Calinski-Harabazs index and Dunn-index
 
-References
+References:
 
 [1] Jackson, I., Avdeikins, A. and Tolujevs, J., 2018, October. Unsupervised Learning-Based Stock Keeping Units Segmentation.
 In International Conference on Reliability and Statistics in Transportation and Communication (pp. 603-612). Springer, Cham.
